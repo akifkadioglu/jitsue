@@ -1,0 +1,43 @@
+# Node.js
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log
+
+# Output
+dist/
+build/
+*.log
+
+# Rollup cache
+.rollup.cache/
+
+# Editor config
+.idea/
+.vscode/
+*.sublime-workspace
+
+# System special
+.DS_Store
+Thumbs.db
+
+# Test
+*.local
+*.env
+.env.local
+.env.*.local
+coverage/
+*.test.js
+*.spec.js
+jest/
+
+# MacOS/Linux
+*.swp
+*.bak
+*~
+
+# Other
+shims-vue.d.ts

@@ -7,11 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["jitsi", "vue", "sdk"],
+  "author": "Akif Kadioglu",
+  "license": "MIT",
   "dependencies": {
-    "tslib": "^2.8.1",
     "vue": "^3.5.13"
   },
   "devDependencies": {
