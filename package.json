@@ -1,0 +1,26 @@
+{
+  "name": "jitsue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tslib": "^2.8.1",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-typescript": "^12.1.1",
+    "rollup": "^4.28.1",
+    "rollup-plugin-vue": "^6.0.0",
+    "typescript": "^5.7.2"
+  },
+  "type": "module"
+}
